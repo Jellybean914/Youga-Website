@@ -65,19 +65,11 @@ nav {
   align-items: center;
 }
 
-.hero__title {
-  font-family: 'Merriweather', sans-serif;
-  font-weight: 400;
-  font-size: 50px;
-  padding-bottom: 40px;
- 
-}
-
-.hero__desc {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 100;
-  color: rgba(255, 255, 255, 0.603);
-  padding-bottom: 40px;
+.hero__dec {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.603);
+    padding-bottom: 40px;
 }
 
 .hero__button {
@@ -87,6 +79,9 @@ nav {
   padding: 15px 50px;
   text-decoration: none;
 }
+
+/********* Container ************/
+
 
 /******* footer Section ********/
 
@@ -111,6 +106,13 @@ footer {
 
 }
 
+.nav__item__footer:hover a {
+  background-color: #FF3481;
+  transition: .5s ease;
+}
+
+/*********** Footer Social Media and Icons ***********/
+
 .icon__button {
   font-size: 24px;
   display: inline-block;
@@ -124,6 +126,10 @@ footer {
 .icon__button i {
   line-height: 30px;
   font-size: 15px;
+}
+
+.icon__button:hover {
+  transform: translate(0,-10px)
 }
 
 .icon__facebook {
@@ -145,3 +151,22 @@ footer {
   color: white;
   background-color: #F03140;
 }
+
+/****** Utilities ******/
+
+h1 {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  padding-bottom: 40px;
+ 
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.479);
+  padding-bottom: 40px;
+}
+
+
