@@ -17,6 +17,15 @@ header {
   background-color: #08150A;
 }
 
+.header__cover__page {
+  background-color: white;
+  
+}
+
+.logo__cover__page {
+  background-color: black;
+}
+
 .logo {
   color: white;
   padding: 20px;
@@ -28,14 +37,16 @@ nav {
 }
 .nav__list {
   display: flex;
-  
 }
 
 .nav__item {
   padding: 5px 10px;
   list-style-type: none;
   color: white;
-  
+}
+
+.nav__item__pages a {
+  color: black;
 }
 
 .nav__item a{
@@ -54,6 +65,15 @@ nav {
   align-items: center;
   width: 100vw;
   height: 90vh;
+}
+
+.hero__cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 40vh;
+  background-color: violet;
 }
 
 .centered__content {
@@ -99,7 +119,7 @@ nav {
 }
 
 
-/****** Flex *******/
+/****** Flex for service grid *******/
 .flex {
   display: flex;
   justify-content: space-between;
@@ -145,21 +165,6 @@ nav {
   border: 2px solid;
 }
 
-.box .grey {
-  background-color: grey;
-}
-
-.box .white {
-  background-color: white;
-}
-
-.box .blue {
-  background-color: blue;
-}
-
-.box .red {
-  background-color: red;
-}
 
 /********* Testimoney Section *******/
 
@@ -168,20 +173,18 @@ nav {
   display: flex;
   justify-content: center;
   align-content: center;
-}
-
-.title_center {
   text-align: center;
 }
 
 .lg_font {
   font-size: 25px;
-  text-align: center;
 }
 
 .desc_width {
   width: 30vw;
 }
+
+
 
 /********* Upgrade Profile *********/
 
