@@ -69,7 +69,7 @@ nav {
     padding-bottom: 40px;
 }
 
-.hero__button {
+.button {
   background: #FF3481;
   color: white;
   border-radius: 10px;
@@ -199,7 +199,35 @@ nav {
   background-color: #221C25;
   width: 30vw;
   height: 40vh;
+  color: white;
 }
+
+.sale_title {
+  color: #1BC7B4;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.sale_box_title {
+  padding-top: 20px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.p_light {
+  color: white;
+  font-size: 30px;
+}
+
+.sale_button {
+  margin-top: 50px;
+  padding: 25px 80px;
+  background: #FF3481;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
 
 /******* footer Section ********/
 
@@ -277,7 +305,6 @@ h1 {
   font-weight: 400;
   font-size: 50px;
   padding-bottom: 40px;
- 
 }
 
 p {
@@ -290,6 +317,7 @@ p {
 .h1_white {
   color: white;
 }
+
 
 .desc {
   font-family: 'Josefin Sans', sans-serif;
