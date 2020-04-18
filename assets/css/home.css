@@ -131,7 +131,6 @@ nav {
   flex-flow: column;
 }
 
-
 .col .one {
   flex: 1;
 }
@@ -150,11 +149,6 @@ nav {
   display: flex;
   flex-flow: row;
   flex: 1;
-}
-
-.col_row {
-  display: flex;
-  flex-flow: column;
 }
 
 .box {
