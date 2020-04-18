@@ -8,6 +8,7 @@ body {
   max-width: 100%;
   font-family: 'Josefin Sans', sans-serif;
 }
+
 /******* Header ********/
 header {
   display: flex;
@@ -55,8 +56,7 @@ nav {
   height: 90vh;
 }
 
-.hero__content {
-  color: white;
+.centered__content {
   width: 30vw;
   display: flex;
   text-align: center;
@@ -65,10 +65,7 @@ nav {
   align-items: center;
 }
 
-.hero__dec {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 100;
-    color: rgba(255, 255, 255, 0.603);
+.hero__desc {
     padding-bottom: 40px;
 }
 
@@ -81,7 +78,128 @@ nav {
 }
 
 /********* Container ************/
+.container_icon {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+}
 
+.container_event__dates {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+/******* Events Section *********/
+
+.container_events {
+  background-color: #221c25;
+}
+
+
+/****** Flex *******/
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.flex .col {
+  display: flex;
+  flex-flow: column;
+}
+
+
+.col .one {
+  flex: 1;
+}
+
+.col .two {
+  flex: 1;
+}
+
+.col {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+
+.row {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+}
+
+.col_row {
+  display: flex;
+  flex-flow: column;
+}
+
+.box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+}
+
+.box .grey {
+  background-color: grey;
+}
+
+.box .white {
+  background-color: white;
+}
+
+.box .blue {
+  background-color: blue;
+}
+
+.box .red {
+  background-color: red;
+}
+
+/********* Testimoney Section *******/
+
+.testimony {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.title_center {
+  text-align: center;
+}
+
+.lg_font {
+  font-size: 25px;
+  text-align: center;
+}
+
+.desc_width {
+  width: 30vw;
+}
+
+/********* Upgrade Profile *********/
+
+.bckg-color {
+  background-color: #2C2530;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 70vh;
+}
+
+.sale_box {
+  background-color: #221C25;
+  width: 30vw;
+  height: 40vh;
+}
 
 /******* footer Section ********/
 
@@ -120,7 +238,7 @@ footer {
   height: 30px;
   width: 30px;
   border-radius: 50%;
-  
+  text-align: center;
 }
 
 .icon__button i {
@@ -169,4 +287,12 @@ p {
   padding-bottom: 40px;
 }
 
+.h1_white {
+  color: white;
+}
 
+.desc {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  color: white;
+}
