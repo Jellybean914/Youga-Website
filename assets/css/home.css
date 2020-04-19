@@ -9,6 +9,15 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+.container {
+  margin-top: 90px;
+  display: flex;
+  text-align: center;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
 /******* Header ********/
 header {
   display: flex;
@@ -26,10 +35,7 @@ header {
   background-color: black;
 }
 
-.logo {
-  color: white;
-  padding: 20px;
-}
+
 
 /******* Navigation ********/
 nav {
@@ -52,7 +58,6 @@ nav {
 .nav__item a{
   text-decoration: none;
   color: white;
-  justify-content: space-between;
 }
 
 /******* Hero Section ********/
@@ -89,15 +94,11 @@ nav {
     padding-bottom: 40px;
 }
 
-.button {
-  background: #FF3481;
-  color: white;
-  border-radius: 10px;
-  padding: 15px 50px;
-  text-decoration: none;
-}
+
 
 /********* Container ************/
+
+
 .container_icon {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -109,20 +110,45 @@ nav {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: 10px;
 }
+
+.container__news__events {
+  width: 50vw;
+  height: 60vh;
+  text-align: center;
+}
+
 
 /******* Events Section *********/
 
 .container_events {
   background-color: #221c25;
+  flex-direction: column;
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
 }
 
 
-/****** Flex for service grid *******/
+/****** News And Events *******/
+.news__box {
+  display: flex;
+  border: 2px solid;
+}
+
+.news__author {
+  font-size: 15px;
+}
+
+
+
+
+/****** Flex for Photo grid *******/
 .flex {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   padding: 5px;
 }
 
@@ -211,21 +237,6 @@ nav {
   text-align: center;
 }
 
-.p_light {
-  color: white;
-  font-size: 30px;
-}
-
-.sale_button {
-  margin-top: 50px;
-  padding: 25px 80px;
-  background: #FF3481;
-  color: white;
-  border-radius: 10px;
-  text-decoration: none;
-}
-
-
 /******* footer Section ********/
 
 footer {
@@ -299,19 +310,26 @@ footer {
 
 h1 {
   font-family: 'Merriweather', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 50px;
   padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: 'Merriweather', sans-serif;
 }
 
 p {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 100;
+  font-size: 23px;
   color: rgba(0, 0, 0, 0.479);
   padding-bottom: 40px;
 }
 
-.h1_white {
+.text__light {
   color: white;
 }
 
@@ -320,4 +338,27 @@ p {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 100;
   color: white;
+}
+
+.btn {
+  background-image: url("/assets/graphics/Rectangle.png");
+  color: white;
+  border-radius: 10px;
+  padding: 20px 60px;
+  text-decoration: none;
+}
+
+.btn__primary {
+  margin-top: 50px;
+  padding: 25px 80px;
+  background: #FF3481;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.font__light {
+  color: white;
+  font-size: 30px;
+  
 }
