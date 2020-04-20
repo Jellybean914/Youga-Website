@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Youga</title>
+
+  <!-- STYLESHEETS -->
   <link rel="stylesheet" href="/assets/css/home.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/css/vendor/flexboxgrid.min.css">
@@ -11,36 +13,44 @@
 </head>
 <body>
   <header>
+    <div class="container header">
       <img src="/assets/images/Youga.png" alt="Youga Logo">
-    <nav>
-      <ul class="nav__list">
-        <li class="nav__item"> <a href="/pages/home.html"> Home </a></li>
-        <li class="nav__item"> <a href="#">About Us </a></li>
-        <li class="nav__item"> <a href="#">Schedule </a></li>
-        <li class="nav__item"> <a href="/pages/Blog.html">Blog </a></li>
-        <li class="nav__item"> <a href="/pages/contact_us.html">Contact Us </a></li>
-      </ul>
-    </nav>
+      <nav>
+        <ul class="nav__list">
+          <li class="nav__item"> <a href="/pages/home.html"> Home </a></li>
+          <li class="nav__item"> <a href="/pages/Blog.html">Blog </a></li>
+          <li class="nav__item"> <a href="/pages/contact_us.html">Contact Us </a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <div class="hero">
-    <div class="centered__content">
-      <h1 class="text__light">What Our Clients Are Saying.</h1>
-      <p class="desc hero__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi maiores aliquid sequi et aliquam mollitia illum illo quidem tenetur pariatur temporibus dolorem velit, porro aut assumenda nisi? Quos, omnis eligendi!</p>
-      <a href="#" class="btn"> Sign Up</a>
+  <!-- HERO -->
+
+  <section class="bg bg--img section--no-margin">
+    <div class="container">
+      <div class="row center-xs">
+        <div class="col-md-8">
+          <div class="hero">
+            <h1 class="hero__title">What Our Clients Are Saying.</h1>
+            <p class="hero__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus, est id placerat feugiat, risus arcu porta tortor, nec convallis purus magna vitae justo. Suspendisse et venenatis ligula.</p>
+            <a href="#" class="btn btn--gradient"> Sign Up</a>
+         </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 
   <section>
     <div class="container">
-      <div class="row">
+      <div class="row middle-md">
         <!-- LEFT SECTION-->
         <div class="col-xs-12 col-sm-6">
           <img src="https://source.unsplash.com/600x600/?yoga" alt="yoga">
         </div>
         <!-- RIGHT SECTON -->
         <div class="col-xs-12 col-sm-6">
-          <h1>Yoga Classes</h1>
+          <h2>Yoga Classes</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem, optio animi, recusandae in veritatis maiores cum laudantium officiis eos obcaecati incidunt vitae impedit.</p>
         </div>
       </div>
@@ -49,48 +59,61 @@
 
   <section>
     <div class="container">
-      <div class="row">
-          <div class="col-xs-12 col-sm-6">
-            <h1>Harmony, Serenity, Acceptance, Love</h1>
+      <div class="row middle-xs">
+          <div class="col-xs-12 col-sm-7">
+            <h2>Harmony, Serenity, Acceptance, Love</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem, optio animi, recusandae in veritatis maiores cum laudantium officiis eos obcaecati incidunt vitae impedit.</p>
-            <div class="container_icon">
-              <div class="icon">
-                <div class="col-xs-12 col-sm-6">
-                  <i class="fa fa-heart"></i>
-                  <h3>Service 1</h3>
-                  <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+            <div class="icon__container">
+              <div class="icon__section">
+                <div>
+                  <i class="icon fa fa-heart"></i>
+                </div>
+                <div>
+                  <h3 class="icon__title">Service 1</h3>
+                  <p class="icon__desc"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 </div>
               </div>
-              <div class="icon">
-                <div class="col-xs-12 col-sm-6">
-                  <i class="fa fa-heart"></i>
-                  <h3>Service 2</h3>
-                  <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+              <div class="icon__section">
+                <div>
+                  <i class="icon fa fa-heart"></i>
+                </div>
+                <div>
+                  <h3 class="icon__title">Service 2</h3>
+                  <p class="icon__desc"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 </div>
               </div>
-              <div class="icon">
-                <div class="col-xs-12 col-sm-6">
-                  <i class="fa fa-heart"></i>
-                  <h3>Service 3</h3>
-                  <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+              <div class="icon__section">
+                <div>
+                  <i class="icon fa fa-heart"></i>
+                </div>
+                <div>
+                  <h3 class="icon__title">Service 3</h3>
+                  <p class="icon__desc"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 </div>
               </div>
-              <div class="icon">
-                <div class="col-xs-12 col-sm-6">
-                  <i class="fa fa-heart"></i>
-                  <h3>Service 4</h3>
-                  <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+              <div class="icon__section">
+                <div>
+                  <i class="icon fa fa-heart"></i>
+                </div>
+                <div>
+                  <h3 class="icon__title">Service 4</h3>
+                  <p class="icon__desc"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6">
+          <div class="col-xs-12 col-sm-5">
             <img src="https://source.unsplash.com/600x600/?yoga" alt="yoga">
           </div>
       </div>
     </div>
   </section>
 
+  <!-- EVENTS -->
   <section>
     <div class="container_events">
       <div class="row">
@@ -116,53 +139,34 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6">
-          <img src="https://source.unsplash.com/600x600/?yoga" alt="yoga">
+          <img src="https://source.unsplash.com/800x800/?yoga" alt="yoga">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO GRID -->
+  <section>
+    <div class="container">
+      <div class="row center-md">
+        <div class="col-md-8">
+          <div class="img-gallery">
+            <div class="img-gallery__left">
+              <div class="img-gallery__photo"></div>
+              <div class="img-gallery__photo"></div>
+              <div class="img-gallery__photo"></div>
+              <div class="img-gallery__photo"></div>
+            </div>
+            <div class="img-gallery__right">
+              <div class="img-gallery__photo"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
   
-  <section>
-      <div class="row">
-        <div class="col-xs-12 align-center">
-          <h1> Photo grid</h1>
-          <div class="flex">
-            <div class="col one">
-              <div class="row">
-                <div class="col">
-                  <div class="box">
-                    <div class="box-content">Box 1</div>
-                  </div>
-  
-                  <div class="box">
-                    <div class="box-content">Box 2</div>
-                  </div>
-                </div>
-  
-                <div class="col">
-                  <div class="box">
-                    <div class="box-content">Box 3</div>
-                  </div>
-  
-                  <div class="box">
-                    <div class="box-content">Box 4</div>
-                  </div>
-                </div>
-  
-                <div class="col two">
-                  <div class="col">
-                    <div class="box">
-                      <div class="box-content">Box 5</div>
-                    </div>
-                  </div>
-                </div>
-  
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </section>
+
   
   <section>
     <div class="container">
@@ -238,12 +242,11 @@
     <h2 class="sale_title">Upgrade Your Profile</h2>
       <div class="sale_box">
         <h1 class="sale_box_title">Premium Collection</h1>
-        <p class="font__light"> Up to 80% Off Sale</p>
+        <p class="font--light"> Up to 80% Off Sale</p>
       </div>
-    <a href="#" class="sale_button"> Contact Us </a>
+    <a href="#" class="btn btn--primary"> Contact Us </a>
   </div>
 </section>
-
 
   <footer>
     <div class="logo__footer"> 
