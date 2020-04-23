@@ -27,7 +27,7 @@
 
   <!-- HERO -->
 
-  <section class="bg bg--img section--no-margin">
+  <section id="hero__cover" class="bg bg--img section--no-margin">
     <div class="container">
       <div class="row center-xs">
         <div class="col-md-8">
@@ -65,7 +65,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem, optio animi, recusandae in veritatis maiores cum laudantium officiis eos obcaecati incidunt vitae impedit.</p>
 
             <div class="icon__container">
-              <div class="icon__section">
+              <div class="icon--section">
                 <div>
                   <i class="icon fa fa-heart"></i>
                 </div>
@@ -75,7 +75,7 @@
                 </div>
               </div>
 
-              <div class="icon__section">
+              <div class="icon--section">
                 <div>
                   <i class="icon fa fa-heart"></i>
                 </div>
@@ -85,7 +85,7 @@
                 </div>
               </div>
 
-              <div class="icon__section">
+              <div class="icon--section">
                 <div>
                   <i class="icon fa fa-heart"></i>
                 </div>
@@ -95,7 +95,7 @@
                 </div>
               </div>
 
-              <div class="icon__section">
+              <div class="icon--section">
                 <div>
                   <i class="icon fa fa-heart"></i>
                 </div>
@@ -118,24 +118,46 @@
     <div class="container_events">
       <div class="row">
         <div class="col-xs-12 col-sm-6">
-          <h1 class="h1_white"> Events</h1>
+          <h1 class="text--light"> Events</h1>
           <p class="desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, sint.</p>
           <div class="container_event__dates">
+  
             <div class="col-xs-12 col-sm-6">
-              <i class="fa fa-heart"></i>
-              <h3>Service 4</h3>
-              <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <div class="icon--section">
+                <div>
+                  <i class=" event--icon fa fa-heart"></i>
+                </div>
+                <div>
+                  <h3 class="icon--title text--light">Service 4</h3>
+                  <p class="light--desc"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
             </div>
+  
             <div class="col-xs-12 col-sm-6">
-              <i class="fa fa-heart"></i>
-              <h3>Service 4</h3>
-              <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <div class="icon--section">
+                <div>
+                  <i class=" event--icon fa fa-heart"></i>
+                </div>
+                <div>
+                  <h3 class="icon--title text--light">Service 4</h3>
+                  <p class="light--desc"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
             </div>
+  
             <div class="col-xs-12 col-sm-6">
-              <i class="fa fa-heart"></i>
-              <h3>Service 4</h3>
-              <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <div class="icon--section">
+                <div>
+                  <i class=" event--icon fa fa-heart"></i>
+                </div>
+                <div>
+                  <h3 class="icon--title text--light">Service 4</h3>
+                  <p class="light--desc"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
             </div>
+  
           </div>
         </div>
         <div class="col-xs-12 col-sm-6">
@@ -207,6 +229,8 @@
             </a>
           </div>
         </div>
+        <h3>Jose</h3>
+        <p>customer</p>
       </div>
     </div>
   </section>
@@ -214,37 +238,55 @@
   <section>
     <div class="container">
       <div class="container__news__events">
-      <h1>News and Events</h1>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-            <div class="news__box">
-              <img src="https://source.unsplash.com/250x400/?yoga" alt="">
-              <p class="news__author">By Jess</p>
-              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-              <a class="news__link" href="#"> Read More</a>
+        <h1 class="center--title">News and Events</h1>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <div class="news--box">
+                <div>
+                  <img src="https://source.unsplash.com/250x400/?yoga" alt="">
+                </div>
+                <div>
+                <p class="news--author">By Jess</p>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <a class="news--link" href="#"> Read More</a>
+                </div>
+              </div>
             </div>
-        </div>
-        <div class="col-xs-12 col-sm-6">
-            <div class="news__box">
-              <img src="https://source.unsplash.com/250x400/?yoga" alt="">
-              <p class="news__author">By Jess</p>
-              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-              <a class="news__link" href="#"> Read More</a>
+            <div class="col-xs-12 col-sm-6">
+              <div class="news--box">
+                <div>
+                  <img src="https://source.unsplash.com/250x400/?yoga" alt="">
+                </div>
+                <div>
+                <p class="news--author">By Jess</p>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <a class="news--link" href="#"> Read More</a>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
       </div>
-      </div>
-    </div>
   </section>
 
-<section>
-  <div class="centered__content bckg-color">
-    <h2 class="sale_title">Upgrade Your Profile</h2>
-      <div class="sale_box">
-        <h1 class="sale_box_title">Premium Collection</h1>
-        <p class="font--light"> Up to 80% Off Sale</p>
+
+
+
+<section id="sales__cover" class="bg bg--img section--no-margin">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-7"></div>
+          <div>
+            <h2 class="sale_title">Upgrade Your Profile</h2>
+            <div class="sale_box">
+              <h1 class="sale_box_title">Premium Collection</h1>
+              <p class="font--light"> Up to 80% Off Sale</p>
+            </div>
+            <a href="#" class="btn btn--primary"> Contact Us </a>
+          </div>
+        
       </div>
-    <a href="#" class="btn btn--primary"> Contact Us </a>
+    </div>
   </div>
 </section>
 

@@ -28,7 +28,6 @@ section {
 }
 
 .bg--img {
-  background-image: url(https://source.unsplash.com/2000x800/?yoga);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -44,6 +43,11 @@ section {
   left: 0;
   background: rgba(0, 0, 0, 0.429);
   z-index: 1;
+}
+
+.bg .container {
+  position: relative;
+  z-index: 2;
 }
 /******* Typography ********/
 
@@ -75,6 +79,8 @@ p {
   color: rgba(0, 0, 0, 0.479);
   padding-bottom: 40px;
 }
+
+
 
 /******* Header ********/
 header {
@@ -121,6 +127,11 @@ nav {
 }
 
 /******* Hero ********/
+
+#hero__cover {
+  background-image: url(https://source.unsplash.com/2000x800/?yoga);
+}
+
 .hero {
   color: #fff;
   position: relative;
@@ -136,24 +147,14 @@ nav {
   color: #fff;
 }
 
+
 /********* Container ************/
 
-
-.container_icon {
-
-}
-
-.container_event__dates {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
-}
-
 .container__news__events {
-  width: 50vw;
+  width: 60vw;
   height: 60vh;
-  text-align: center;
 }
+
 
 /********* Icon Component ************/
 
@@ -165,7 +166,7 @@ nav {
   grid-row-gap: 48px;
 }
 
-.icon__section {
+.icon--section {
   display: flex;
   align-items: flex-start;
 }
@@ -182,13 +183,17 @@ i.icon {
   margin-right: 25px;
 }
 
-.icon__title {
+.icon--title {
   margin: 0 0 5px;
 }
 
-.icon__desc {
+.icon--desc {
   margin: 0;
   padding: 0;
+}
+
+.light--desc {
+  color:rgba(255, 255, 255, 0.596);
 }
 
 
@@ -202,18 +207,43 @@ i.icon {
   align-items: center;
 }
 
+.container_event__dates {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 40px;
+}
+
+i.event--icon {
+  background: #15B527;
+  border-radius: 50%;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  line-height: 50px; 
+  text-align: center;
+  font-size: 26px;
+  margin-right: 25px;
+}
+
 
 /****** News And Events *******/
-.news__box {
+.news--box {
   display: flex;
   border: 2px solid;
 }
 
-.news__author {
-  font-size: 15px;
+.news--author {
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
 }
 
-
+.news--link {
+  text-decoration: none;
+  color: #EE2A74;
+  font-size: 20px;
+}
 
 /****** image gallery ******/
 .img-gallery {
@@ -269,14 +299,8 @@ i.icon {
 
 /********* Upgrade Profile *********/
 
-.bckg-color {
-  background-color: #2C2530;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 70vh;
+#sales__cover {
+  background-image: url(https://source.unsplash.com/2000x800/?yoga);
 }
 
 .sale_box {
@@ -370,7 +394,7 @@ footer {
 /****** Utilities ******/
 
 
-.text__light {
+.text--light {
   color: white;
 }
 
@@ -418,4 +442,8 @@ footer {
   color: white;
   font-size: 30px;
   
+}
+
+.center--title {
+  text-align: center;
 }
