@@ -303,17 +303,16 @@ i.event--icon {
   background-image: url(https://source.unsplash.com/2000x800/?yoga);
 }
 
+.sale_title {
+  color: #1BC7B4;
+  font-size: 30px;
+}
 .sale_box {
   background-color: #221C25;
   width: 30vw;
   height: 40vh;
   color: white;
-}
-
-.sale_title {
-  color: #1BC7B4;
-  font-size: 30px;
-  padding-bottom: 30px;
+  align-content: center;
 }
 
 .sale_box_title {
@@ -438,9 +437,10 @@ footer {
 }
 
 
-.font__light {
+.font--light {
   color: white;
   font-size: 30px;
+  font-weight: 400;
   
 }
 
