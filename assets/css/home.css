@@ -207,20 +207,6 @@ i.icon {
   color:rgba(255, 255, 255, 0.596);
 }
 
-/****** Card Sections *****/
-
-.box {
-  border: 2px solid black;
-}
-
-.card__text {
-  font-size: 20px;
-  font-weight: 300;
-  color: black;
-}
-
-
-
 /******* Events Section *********/
 
 .container_events {
@@ -429,6 +415,10 @@ footer {
   transition: all 150ms ease-in-out;
 }
 
+.wider--btn {
+  padding: 25px 100px;
+}
+
 .btn:focus, .btn:active {
   outline: none;
 }
@@ -464,4 +454,23 @@ footer {
 
 .center--title {
   text-align: center;
+}
+
+
+/************** [Blog Page] ***************/
+
+/******* Card Section ********/
+.box {
+  border: 2px solid black;
+  text-align: center;
+  width: 30vw;
+  height: 100vh;
+}
+
+.card__text p {
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+  display: inline-flex;
+  justify-content: space-around;
 }
