@@ -88,6 +88,10 @@ header {
   background-color: #08150A;
 }
 
+.light--header {
+  background-color: white;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -102,6 +106,9 @@ header {
   background-color: black;
 }
 
+.bg-dark {
+  background-color: black;
+}
 
 /******* Navigation ********/
 nav {
@@ -124,6 +131,10 @@ nav {
 .nav__item a{
   text-decoration: none;
   color: white;
+}
+
+.nav__item--dark a{
+  color: black;
 }
 
 /******* Hero ********/
@@ -196,6 +207,19 @@ i.icon {
   color:rgba(255, 255, 255, 0.596);
 }
 
+/****** Card Sections *****/
+
+.box {
+  border: 2px solid black;
+}
+
+.card__text {
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+}
+
+
 
 /******* Events Section *********/
 
@@ -231,12 +255,6 @@ i.event--icon {
 .news--box {
   display: flex;
   border: 2px solid;
-}
-
-.news--author {
-  font-size: 20px;
-  font-weight: 300;
-  color: black;
 }
 
 .news--link {
